@@ -1,0 +1,23 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+#root{
+   background-color: gray; 
+   display:flex;
+}
+.main{
+    background-color: black;
+    color: aliceblue;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.img{
+    height: 200px;
+    object-fit: cover;
+}
